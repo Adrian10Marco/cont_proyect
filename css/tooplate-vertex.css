@@ -609,7 +609,15 @@ figure.effect-goliath:hover p {
 
     .tm-copyright { margin-left: 15px; }
 }
+@media (max-width: 1200px) {
+    .tm-section-col {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .tm-parallax { min-height: 360px; }
 
+
+}
 @media (max-width: 992px) {
     .tm-brand { 
         position: static;
@@ -675,19 +683,19 @@ figure.effect-goliath:hover p {
     .tm-section-col {
         flex: 0 0 100%;
         width: 100%;
-        background-image: url('img/logos/logo blanco letras.png');
-        
+
     }
+    .tm-parallax { min-height: 360px; }
+
 }
 
 @media (max-width: 560px) {
     .tm-sm-mt-30 { margin-top: 30px; }
     .tm-section-col {
         flex: 0 0 100%;
-        width: 100%;
-        background-image: url('img/logos/logo blanco letras.png');
-        
-    }
+        width: 100%;  
+    }    
+    .tm-parallax { min-height: 360px; }
 }
 
 @media (max-width: 516px) {
@@ -702,9 +710,10 @@ figure.effect-goliath:hover p {
     .tm-section-col {
         flex: 0 0 100%;
         width: 100%;
-        background-image: url('img/logos/logo blanco letras.png');
-        
     }
+    
+    .tm-parallax { min-height: 360px; }
+
 
     figure h2 { font-size: 1rem; }
 }
@@ -717,7 +726,7 @@ figure.effect-goliath:hover p {
     .tm-section-col {
         flex: 0 0 100%;
         width: 100%;
-        background-image: url('img/logos/logo blanco letras.png');
-        
+
     }
+    .tm-parallax { min-height: 360px; }
 }
